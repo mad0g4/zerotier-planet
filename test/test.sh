@@ -1,4 +1,4 @@
-### date:2021年11月29日
+echo "### date:2021年11月29日
 ### author: www.mrdoc.fun | jonnyan404
 ### 转载请保留来源
 ### update：2022年08月14日
@@ -8,7 +8,7 @@ services:
         container_name: ztncui
         restart: always
         environment:
-            - MYADDR=hah #改成自己的服务器公网IP
+            - MYADDR=$1 #改成自己的服务器公网IP
             - HTTP_PORT=4000
             - HTTP_ALL_INTERFACES=yes
             - ZTNCUI_PASSWD=mrdoc.fun
@@ -22,4 +22,8 @@ services:
             - './ztncui/etc:/opt/key-networks/ztncui/etc'
             # 按实际路径挂载卷， 冒号前面是宿主机的， 支持相对路径
         image: keynetworks/ztncui
+" > docker-compose.yml
+
+
+
 

@@ -16,6 +16,12 @@
 # 用法
 
 ```
+bash mk_install_run.sh <your server ip>
+```
+
+OR
+
+```
 git clone https://github.com/Jonnyan404/zerotier-planet
 OR
 git clone https://gitee.com/Jonnyan404/zerotier-planet

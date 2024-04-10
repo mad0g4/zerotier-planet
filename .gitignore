@@ -2,3 +2,6 @@ zerotier-one
 ztncui
 docker-compose.yml
 moon.json
+current.*
+previous.*
+planet

@@ -4,7 +4,7 @@ echo "### date:2021年11月29日
 ### author: www.mrdoc.fun | jonnyan404
 ### 转载请保留来源
 ### update：2022年08月14日
-version: '2.0'
+version: '3.0'
 services:
     ztncui:
         container_name: ztncui
